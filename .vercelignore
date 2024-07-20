@@ -1,1 +1,2 @@
-/prisma
+**/seed.ts
+**/seed.cjs
