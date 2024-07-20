@@ -14,6 +14,9 @@ const config = {
     // Warning: Dangerously allow production builds to successfully complete even if your project has type errors.
     ignoreBuildErrors: true,
   },
+  experimental: {
+    missingSuspenseWithCSRBailout: false,
+  },
 };
 
 export default config;
